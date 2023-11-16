@@ -2,7 +2,7 @@ import { useState } from "react";
 import Cart from "./day4/Cart";
 import Menu from "./day4/Menu";
 import Navbar from "./day4/Navbar";
-import categories from "./day4/products";
+import categories from "./day4/categories";
 function App() {
     const [activeCategory, setActiveCategory] = useState(categories[0]);
     const [products, setProducts] = useState([]);
